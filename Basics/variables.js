@@ -6,6 +6,12 @@ let y = 6;
 let z = x + y;
 console.log(z);
 
+/*
+    Prefer not to use var keyword while declering variables
+    because of issue in block scope and functional scope.
+*/
+/* It is a Multiline Comment */
+// It is a Singleline Comment.
 //Variables are declared with the let keyword as well as const.
 //A constant is a variable whose value cannot be changed once it is assigned.
 
