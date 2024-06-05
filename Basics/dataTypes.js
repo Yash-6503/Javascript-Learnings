@@ -17,6 +17,7 @@ let Str = "Hello World!";
 let bool = true;
 let state;
 let Sym = Symbol("This is a Symbol");
+let nullValue = null;
 let bigInt = 1234567890123456789012345678901234567890n;
 
 console.log("Primitive Datatypes in Javascript:");
@@ -24,7 +25,7 @@ console.log(typeof Num);    //output is number
 console.log(typeof Str);    //output is string
 console.log(typeof bool);   //output is boolean
 console.log(typeof state);  //output is undefined
-console.log(typeof null);  //output is object
+console.log(typeof nullValue);  //output is object
 console.log(typeof Sym);    //output is symbol
 console.log(typeof bigInt); //output is bigint
 
