@@ -1,0 +1,19 @@
+{
+  "name": "javascript-learnings",
+  "version": "1.0.0",
+  "description": "For Learning Purpose only",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yash-6503/Javascript-Learnings.git"
+  },
+  "author": "Dev.Yash Walke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yash-6503/Javascript-Learnings/issues"
+  },
+  "homepage": "https://github.com/Yash-6503/Javascript-Learnings#readme"
+}
