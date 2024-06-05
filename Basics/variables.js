@@ -29,6 +29,6 @@ console.log(accountId);
 console.log(accountName);
 console.log(accountBalance);
 console.log(accountCity);
-console.table[accountId, accountName, accountBalance, accountCity];
+console.table([accountId, accountName, accountBalance, accountCity]);
 
 
