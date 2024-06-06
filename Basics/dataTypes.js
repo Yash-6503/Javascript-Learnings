@@ -30,7 +30,9 @@ console.log(typeof Sym);    //output is symbol
 console.log(typeof bigInt); //output is bigint
 
 //Non-Primitive Data Types
+//object
 let obj = { name: "John Doe", age: 25 };
+//function
 let fun = function () {
     return "This is a function";
 };
@@ -39,6 +41,7 @@ console.log("\nNon-Primitive Datatypes in Javascript:");
 console.log(typeof obj);    //output is object
 console.log(typeof fun);    //output is function
 
+//array
 let arr = ['yash', 99, 20.5, 'harsh'];
 console.log(arr);
 
