@@ -39,6 +39,10 @@ console.log("\nNon-Primitive Datatypes in Javascript:");
 console.log(typeof obj);    //output is object
 console.log(typeof fun);    //output is function
 
+let arr = ['yash', 99, 20.5, 'harsh'];
+console.log(arr);
+
+
 
 //Theory of Datatypes.
 //Define Data types in Javascript.
