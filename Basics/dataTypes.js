@@ -64,7 +64,10 @@ console.log(typeof fun);    //output is function
 //Non-primitive data types are not defined by the programming language, but are created by the programmer.
 //They are sometimes called reference types.
 //Non-primitive data types are passed by reference.
-//There are 2 non-primitive data types in javascript.
-// 1. Object
-// 2. Function
+//There are 5 non-primitive data types in javascript.
+// 1.Object
+// 2.Array
+// 3.Function
+// 4.Date
+// 5.RegExp
 
