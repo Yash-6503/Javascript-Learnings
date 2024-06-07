@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>String Operations</title>
+        <script src="./script.js"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+
+
+        <div>
+            <form action="" onsubmit="handleSubmit(event)">
+                <h2><u>Single String Operations</u></h2>
+                <div class="str">
+                    <label for="str">Enter String</label>
+                    <input type="text" required id="str" placeholder="Enter String here..." />
+                </div>
+
+                <div class="operation1">
+                    <input type="radio" name="opr" id="length" value="length">
+                    <label for="length">Length</label>
+                </div>
+
+                <div class="operation2">
+                    <input type="radio" name="opr" id="ucase" value="ucase">
+                    <label for="ucase">Uppercase</label>
+                </div>
+
+                <div class="operation3">
+                    <input type="radio" name="opr" id="lcase" value="lcase">
+                    <label for="lcase">Lowercase</label>
+                </div>
+
+                <div class="operation4">
+                    <input type="radio" name="opr" id="rev" value="rev">
+                    <label for="rev">Reverse</label>
+                </div>
+
+                <div class="operation5">
+                    <input type="radio" name="opr" id="trim" value="trim">
+                    <label for="trim">Trim (remove spaces)</label>
+                </div>
+
+                <div class="btn">
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+                </div>
+
+
+
+            </form>
+            <div class="output">
+                <label for=""><u>Output / Answer</u></label>
+                <p id="message"></p>
+            </div>
+        </div>
+    </body>
+
+</html>

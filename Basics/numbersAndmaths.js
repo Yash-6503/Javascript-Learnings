@@ -87,7 +87,7 @@ console.log(Math.floor(Math.random() * (max - min + 1)) + min);
 //3. Math
 //4. Date
 //5. Infinity
-//6. -Infinity
+//6. - Infinity
 //7. NaN
 
 //These all are the math types in javascript

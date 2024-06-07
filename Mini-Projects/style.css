@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body {
+    font-size: 16px;
+    background-color: rgb(247, 242, 242);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+form {
+    height: 300px;
+    width: 40%;
+    margin: 0px auto;
+    /* box-sizing: border-box;
+                border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.str {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 5px;
+}
+
+.str>label {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.str>input {
+    border: 2px solid black;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    outline: none;
+    padding: 0px 10px;
+    background-color: rgb(247, 242, 242);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.str>input:focus {
+    border: 2px solid gray;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+}
+
+.operation1 {
+    width: 50%;
+    display: flex;
+    gap: 15px;
+}
+
+.operation2 {
+    width: 50%;
+    display: flex;
+    gap: 15px;
+}
+
+.operation3 {
+    width: 50%;
+    display: flex;
+    gap: 15px;
+}
+
+.operation4 {
+    width: 50%;
+    display: flex;
+    gap: 15px;
+}
+
+.operation5 {
+    width: 50%;
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    width: 50%;
+
+}
+
+button {
+    width: 49%;
+    outline: none;
+    border: none;
+    background-color: rgb(18, 18, 255);
+    color: white;
+    height: 30px;
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 50%;
+
+}
+
+.output>label {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+}
