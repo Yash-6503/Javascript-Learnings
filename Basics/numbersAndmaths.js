@@ -21,7 +21,7 @@ console.log(balance);
 //The number of decimals is specified in the toFixed() method:
 
 console.log(balance.toString().length);
-console.log(balance.toFixed(2));
+console.log(balance.toFixed(2));                
 
 let bal = balance * 2;
 console.log(bal.toFixed(1));
