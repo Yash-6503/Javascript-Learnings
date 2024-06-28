@@ -1,0 +1,161 @@
+DOM in javascript
+DOM is a document object model
+DOM is a programming interface for web documents
+DOM is a programming interface for HTML and XML documents
+DOM represents the document as nodes and objects
+
+What are the DOM events
+DOM events are actions that occur in the browser
+when a user interacts with a web page
+
+Some examples of DOM events are
+click
+mouseover
+mouseout
+keydown
+load
+resize
+scroll
+submit
+focus
+blur
+
+What is the DOM event listener
+DOM event listener is a method that listens for a specific event
+and performs an action when the event occurs
+
+Some examples of DOM event listeners are
+click
+mouseover
+mouseout
+keydown
+load
+
+What is the DOM event handler
+DOM event handler is a function that is executed when an event occurs
+it is used to handle the event
+
+Some examples of DOM event handlers are
+onclick
+onmouseover
+onmouseout
+onkeydown
+onload
+
+What is the DOM event object
+DOM event object is an object that contains information about the event
+it is used to get information about the event
+
+Some examples of DOM event object properties are
+type
+target
+clientX
+clientY
+keyCode
+which
+pageX
+pageY
+
+What is the DOM event propagation
+DOM event propagation is the process of event bubbling and event capturing
+it is used to handle events that occur on nested elements
+
+What is the DOM event bubbling
+DOM event bubbling is the process of propagating the event from the target element
+to the parent elements
+
+What is the DOM event capturing
+DOM event capturing is the process of propagating the event from the parent elements
+to the target element
+
+What is the DOM event delegation
+DOM event delegation is the process of handling events on parent elements
+instead of handling events on child elements
+
+What is the DOM event preventDefault
+DOM event preventDefault is a method that prevents the default action of an event
+it is used to prevent the default action of an event
+
+What is the DOM event stopPropagation
+DOM event stopPropagation is a method that stops the propagation of an event
+it is used to stop the propagation of an event
+
+What is the DOM event target
+DOM event target is the element that triggered the event
+it is used to get the element that triggered the event
+
+What is the DOM event currentTarget
+DOM event currentTarget is the element that the event is currently being handled on
+it is used to get the element that the event is currently being handled on
+
+What is the DOM event relatedTarget
+DOM event relatedTarget is the element that the event is related to
+it is used to get the element that the event is relatedTarget
+
+What is the DOM event type
+DOM event type is the type of the event
+it is used to get the type of the event
+
+What is the DOM event keyCode
+DOM event keyCode is the key code of the key that was pressed
+it is used to get the key code of the key that was pressed
+
+What is the DOM event which
+DOM event which is the key code of the key that was pressed
+it is used to get the key code of the key that was pressed
+
+What is the DOM event pageX
+DOM event pageX is the horizontal coordinate of the mouse pointer
+relative to the whole document
+
+What is the DOM event pageY
+DOM event pageY is the vertical coordinate of the mouse pointer
+relative to the whole document
+
+What is the DOM event clientX
+DOM event clientX is the horizontal coordinate of the mouse pointer
+relative to the viewport
+
+What is the DOM event clientY
+DOM event clientY is the vertical coordinate of the mouse pointer
+relative to the viewport
+
+What is the DOM event offsetX
+DOM event offsetX is the horizontal coordinate of the mouse pointer
+relative to the target element
+
+What is the DOM event offsetY
+DOM event offsetY is the vertical coordinate of the mouse pointer
+relative to the target element
+
+What is the DOM event screenX
+DOM event screenX is the horizontal coordinate of the mouse pointer
+relative to the screen
+
+What is the DOM event screenY
+DOM event screenY is the vertical coordinate of the mouse pointer
+relative to the screen
+
+What is the DOM event altKey
+DOM event altKey is a boolean value that indicates whether the alt key was pressed
+
+What is the DOM event ctrlKey
+DOM event ctrlKey is a boolean value that indicates whether the ctrl key was pressed
+
+What is the DOM event shiftKey
+DOM event shiftKey is a boolean value that indicates whether the shift key was pressed
+
+What is the DOM event metaKey
+DOM event metaKey is a boolean value that indicates whether the meta key was pressed
+
+What is the DOM event button
+DOM event button is the button that was pressed
+it is used to get the button that was pressed
+
+What is the DOM event timeStamp
+DOM event timeStamp is the time when the event occurred
+it is used to get the time when the event occurred
+
+What is the DOM event isTrusted
+DOM event isTrusted is a boolean value that indicates whether the event is trusted
+it is used to get whether the event is trusted.
