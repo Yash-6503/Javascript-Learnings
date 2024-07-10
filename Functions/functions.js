@@ -50,8 +50,6 @@ function addition(a, b) {
 
 //function call by passing arguments
 addition(5, 5);
-
-
 //Function with return value
 function addTwoNumbers(num1, num2) {
     return num1 + num2;
@@ -86,3 +84,8 @@ function isOnline(username = "Yash") {
 
 console.log(isOnline())
 console.log(isOnline("Yash Walke"));
+
+console.log("\n Hello");
+console.log(2 + 3);
+console.log(5 / 5);
+
