@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Validation</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Form Validation</h2>
+        <form action="" method="post">
+            <div class="fname">
+                <Output id="fnm"></Output>
+                <label for="fname">Enter First Name: </label>
+                <input type="text" placeholder="first name" id="fname" name="fname" required />
+            </div>
+            <div class="lname">
+                <Output id="lnm"></Output>
+                <label for="lname">Enter Last Name: </label>
+                <input type="text" placeholder="last name" id="lname" name="lname" required />
+            </div>
+            <div class="email">
+                <Output id="em"></Output>
+                <label for="email">Enter Email: </label>
+                <input type="email" placeholder="ex.abc123@gmail.com" id="email" name="email" required />
+            </div>
+            <div class="pass">
+                <Output id="pwd"></Output>
+                <label for="password">Enter Password: </label>
+                <input type="password" placeholder="password" id="password" name="password" required />
+            </div>
+            <div class="mob">
+                <Output id="mb"></Output>
+                <label for="mob">Enter Mobile No: </label>
+                <input type="text" placeholder="ex.1234567890" id="mob" name="mob" required />
+            </div>
+        </form>
+        <button onclick="validateForm()">Submit</button>
+    </div>
+
+</body>
+</html>
